@@ -1,0 +1,157 @@
+.App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    /*background-color: #2f74c0;*/
+    font-family: 'Lucida Sans';
+  }
+.container{
+  width:100%;
+}
+  .form-label{
+    min-width: 100px;
+  }
+
+  .nav-link {
+    color: #2596be;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px; /* Adjust as needed */
+  }
+
+  .table-container {
+    width: 100%; /* Full width */
+    overflow-x: auto; /* Allow horizontal scrolling */
+  }
+  
+  table {
+    width: 100%; /* Full table width */
+    height: auto; /* Adjust height based on content */
+    border-collapse: collapse;
+    background-color: white;
+    margin: 0; /* Remove default margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a clean look */
+  }
+  
+  th, td {
+    padding: 15px;
+    border: 1px solid #ddd; /* Table border */
+    text-align: left; /* Left-aligned content */
+    font-size: 16px;
+  }
+  
+  th {
+    background-color: #007bff; /* Header background */
+    color: white; /* Header text color */
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f4f4f4; /* Alternate row color */
+  }
+  
+  tbody tr:hover {
+    background-color: #e0f7fa; /* Highlight row on hover */
+    
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    th, td {
+      padding: 10px; /* Reduce padding for small screens */
+      font-size: 14px; /* Slightly smaller text */
+    }
+  
+    table {
+      width: 100%; /* Ensure table takes full width on smaller screens */
+    }
+  }
+  
+  
+  
+  .custom-btn {
+    background: linear-gradient(135deg, #4cafef, #007bff);
+    color: #fff !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .custom-btn:hover,.nav-back {
+    background: linear-gradient(135deg, #007bff46, #0056b3);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+  
+  .custom-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ToDolist styling
+  .heading{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 30px 0;
+    color: white;
+    z-index: 1;
+   text-align: center;
+   
+   padding: 34%;
+   
+  }
+  @media(max-width:800px)  {
+    .heading{
+        margin: 15px 0;
+        font-size: 30px;
+    }
+  }
+
+  .input{
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+  }
+  .input_box{
+    width: 300px;
+    height: 45px;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px black;
+  }
+  .input_box:focus{
+    box-shadow: 0 0 10px 1000px rgba(0,0,0,0.2);
+    outline: none;
+  }
+  .input_submit{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: 0px;
+    border-radius: 50px;
+    right: 0px;
+    border: none;
+    font-size: 15px;
+    background-color: #2f74c0;
+    color: white;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+  }
+  .input_submit:hover{
+    background-color: #388ae2;
+  }
+  .input_submit:active{
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+  }*/
+  
